@@ -23,8 +23,10 @@ public class Compose_Mail extends BaseClass {
 	@FindBy(xpath="(//span[@class='aXw T-KT'])[3]") private WebElement starred;
 	@FindBy(xpath="//div[@aria-label='Send ‪(Ctrl-Enter)‬']") private WebElement send;
 	@FindBy(xpath="(//span[@name='me'])[2]") private WebElement openmsg;
+	@FindBy(xpath="//h2[@class='hP']") private WebElement subverify;
 
 	//@FindBy(xpath="((//div[@dir=\"ltr\"])[4]") private WebElement msgbody;
+	//@FindBy(xpath="(//div[@dir='ltr'])[4]") private WebElement msgbody;
 	
 	
     
@@ -65,6 +67,22 @@ public class Compose_Mail extends BaseClass {
 
     	}
 
+
+	public void verifysubject()
+	{
+
+
+		String actualsubject = subverify.getText();
+		String expecsubject= "Test Mail";
+		if(expecsubject.equals(actualsubject))
+		{
+			System.out.println("Message verified");
+		}
+		else
+		{
+			System.out.println("Mesage Failed");
+		}
+	}
     
 
 }

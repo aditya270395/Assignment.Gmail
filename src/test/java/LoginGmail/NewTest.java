@@ -34,7 +34,8 @@ public class NewTest extends BaseClass{
 	  System.out.println("---------Test_1------------");
 	  login.Login();
 	  compose.Login();
-		System.out.println("---------  Same Message Received------------");
+	  compose.verifysubject();
+
 		System.out.println("---------  Test Done------------");
 
   }
