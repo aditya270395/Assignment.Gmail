@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47256" started-at="2021-06-07T08:59:05Z" finished-at="2021-06-07T08:59:52Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47256" started-at="2021-06-07T08:59:05Z" finished-at="2021-06-07T08:59:52Z">
+      <class name="LoginGmail.NewTest">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:LoginGmail.NewTest@6093dd95]" name="Open_Browser" is-config="true" duration-ms="2337" started-at="2021-06-07T08:59:05Z" finished-at="2021-06-07T08:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:LoginGmail.NewTest@6093dd95]" name="Setup" is-config="true" duration-ms="15" started-at="2021-06-07T08:59:07Z" finished-at="2021-06-07T08:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:LoginGmail.NewTest@6093dd95]" name="Test_1" duration-ms="44816" started-at="2021-06-07T08:59:07Z" finished-at="2021-06-07T08:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginGmail.NewTest@6093dd95]" name="tearDown" is-config="true" duration-ms="78" started-at="2021-06-07T08:59:52Z" finished-at="2021-06-07T08:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginGmail.NewTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

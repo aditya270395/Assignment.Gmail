@@ -64,6 +64,7 @@ public class Compose_Mail extends BaseClass {
     	starred.click();
     	Thread.sleep(4000);
     	openmsg.click();
+		Thread.sleep(4000);
 
     	}
 
